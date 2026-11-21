@@ -64,9 +64,9 @@ int main() {
 //     cout<<"6"<<"*"<<j<<"="<<i<<endl;;
 //    }
    
-      for (int i=9, j=1; i<=90; i+=9, j++)
+      for (int i=6, j=1; i<=60; i+=6, j++)
       {
-        cout<<"9"<<"*"<<j<<"="<<i<<endl;
+        cout<<"6"<<"*"<<j<<"="<<i<<endl;
 
       }
 
