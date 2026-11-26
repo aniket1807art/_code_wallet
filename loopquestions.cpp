@@ -64,19 +64,149 @@ int main() {
         //     cout<<endl;
         // }
 
+        //  int x, y;
+        // for(x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     for(y=1; y<=(6-x); y++)
+        //     {
+        //         cout<<"* ";
+        //     }
+            
+        //     cout<<endl;
+        // }
+
+        //   int x, y;
+        // for(x=1; x<=6; x++)
+        // {
+        //     for(y=1; y<=x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     for(y=1; y<=(2*x-1); y++)
+        //     {
+        //         cout<<"*";
+        //     }
+        //      for(y=1; y<=x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+            
+        //     cout<<endl;
+        // }
+
+        // triangle pattern
+
+        // int x, y;
+        // for (x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=5-x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     {
+        //         for (y=1; y<=2*x-1; y++)
+        //         {
+        //             cout<<"*";
+        //         }
+        //         cout<<endl;
+        //     }
+        // }
+
+
+        // inverted triangle pattern
+
+        //  int x, y;
+        // for (x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=x-1; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     {
+        //         for (y=1; y<=11-2*x; y++)
+        //         {
+        //             cout<<"*";
+        //         }
+        //         cout<<endl;
+        //     }
+        // }
+          
+         // triangle pattern using natural numbers
+         
+        //  int x, y;
+        // for (x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=5-x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     {
+        //         for (y=2*x-1; y>=1; y--)
+        //         {
+        //             cout<<y;
+        //         }
+        //         cout<<endl;
+        //     }
+        // }
+
+        //  int x, y;
+        // for (x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=5-x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //     {
+        //         for (y=63+2*x; y>=65; y--)
+        //         {
+        //             cout<<(char)y;
+        //         }
+        //         cout<<endl;
+        //     }
+        // }
+        
+        //  int x, y;
+        // for (x=1; x<=5; x++)
+        // {
+        //     for(y=1; y<=5-x; y++)
+        //     {
+        //         cout<<" ";
+        //     }
+        //       for(y=1; y<=x; y++)
+        //       {
+        //         cout<<y;
+        //       }
+        //       for(y=x-1; y>=1; y--)
+        //       {
+        //           cout<<y;
+        //       }
+        //       cout<<endl;
+            
+        // }
+
          int x, y;
-        for(x=1; x<=5; x++)
+        for (x=1; x<=5; x++)
         {
-            for(y=1; y<=x; y++)
+            for(y=1; y<=5-x; y++)
             {
                 cout<<" ";
             }
-            for(y=1; y<=(6-x); y++)
-            {
-                cout<<"*";
-            }
+              for(y=x; y>=1; y--)
+              {
+                cout<<y;
+              }
+              for(y=2; y<=x; y++)
+              {
+                  cout<<y;
+              }
+              cout<<endl;
             
-            cout<<endl;
         }
+
+
     return 0;
 }
